@@ -1,5 +1,5 @@
 <?php
-// require_once __DIR__ .'';
+
 // definisco le classi 
 class Movie
 {
@@ -39,8 +39,7 @@ class Movie
          <p>info:  {$this->getMainInfo()}  </p>
     </div>';
     }
-    public function printHtml()
-    {
+    public function printHtml() {
 ?>
 
         <div class="card">
