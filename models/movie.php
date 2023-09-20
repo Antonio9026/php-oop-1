@@ -28,17 +28,17 @@ class Movie
     }
 
 
-    public function getHtml()
-    {
-        return ' 
-    <div class="card">
-         <h2 >Titolo: $this->titolo  </h2>
-         <p >Produtore: $this->produttore </p>
-         <p>Genere:  $this->genere </p>
-         <p>Distribuito da:   $this->distribuzione  </p>
-         <p>info:  {$this->getMainInfo()}  </p>
-    </div>';
-    }
+    // public function getHtml()
+    // {
+    //     return ' 
+    // <div class="card">
+    //      <h2 >Titolo: $this->titolo  </h2>
+    //      <p >Produtore: $this->produttore </p>
+    //      <p>Genere:  $this->genere </p>
+    //      <p>Distribuito da:   $this->distribuzione  </p>
+    //      <p>info:  {$this->getMainInfo()}  </p>
+    // </div>';
+    // }
     public function printHtml() {
 ?>
 
